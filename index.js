@@ -3,7 +3,7 @@ module.exports = function({ e, addUtilities, config }) {
   let margins = config('margin', {})
   
   for (const key in margins) {
-    let className = `.${e(`s-${key}`)} > * + *`
+    let className = `.${e(`o-${key}`)} > * + *`
     let marginTop = margins[key]
 
     if (marginTop == 'auto') {
