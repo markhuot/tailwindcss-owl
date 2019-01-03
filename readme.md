@@ -77,21 +77,21 @@ The owl selector allows you to ignore all that and apply a "spacing context" _ar
 The Owl utility for Tailwind CSS uses the `margin` config so a default install will have access to the following utility classes,
 
 ```css
-.o-0 { margin-top: 0; }
-.o-1 { margin-top: 0.25rem; }
-.o-2 { margin-top: 0.5rem; }
-.o-3 { margin-top: 0.75rem; }
-.o-4 { margin-top: 1rem; }
-.o-5 { margin-top: 1.25rem; }
-.o-6 { margin-top: 1.5rem; }
-.o-8 { margin-top: 2rem; }
-.o-10 { margin-top: 2.5rem; }
-.o-12 { margin-top: 3rem; }
-.o-16 { margin-top: 4rem; }
-.o-20 { margin-top: 5rem; }
-.o-24 { margin-top: 6rem; }
-.o-32 { margin-top: 8rem; }
-.o-px { margin-top: 1px; }
+.o-0 > * + * { margin-top: 0; }
+.o-1 > * + * { margin-top: 0.25rem; }
+.o-2 > * + * { margin-top: 0.5rem; }
+.o-3 > * + * { margin-top: 0.75rem; }
+.o-4 > * + * { margin-top: 1rem; }
+.o-5 > * + * { margin-top: 1.25rem; }
+.o-6 > * + * { margin-top: 1.5rem; }
+.o-8 > * + * { margin-top: 2rem; }
+.o-10 > * + * { margin-top: 2.5rem; }
+.o-12 > * + * { margin-top: 3rem; }
+.o-16 > * + * { margin-top: 4rem; }
+.o-20 > * + * { margin-top: 5rem; }
+.o-24 > * + * { margin-top: 6rem; }
+.o-32 > * + * { margin-top: 8rem; }
+.o-px > * + * { margin-top: 1px; }
 ``` 
 
 ## Installation
