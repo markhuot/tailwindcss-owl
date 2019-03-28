@@ -91,6 +91,10 @@ The Owl utility for Tailwind CSS uses the `margin` config so a default install w
 .o-20 > * + * { margin-top: 5rem; }
 .o-24 > * + * { margin-top: 6rem; }
 .o-32 > * + * { margin-top: 8rem; }
+.o-40 > * + * { margin-top: 10rem; }
+.o-48 > * + * { margin-top: 12rem; }
+.o-56 > * + * { margin-top: 14rem; }
+.o-64 > * + * { margin-top: 16rem; }
 .o-px > * + * { margin-top: 1px; }
 ``` 
 
