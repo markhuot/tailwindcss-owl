@@ -1,6 +1,6 @@
 module.exports = function({ e, addUtilities, config }) {
   let newUtilities = {}
-  let margins = config('margin', {})
+  let margins = config('theme.margin', {})
   
   for (const key in margins) {
     let className = `.${e(`o-${key}`)} > * + *`
