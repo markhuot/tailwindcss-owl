@@ -1,3 +1,5 @@
+Note: this has been superceeded by https://tailwindcss.com/docs/space#app. You should use the first party spacing classes wherever possible.
+
 Lobotomized Owl Selector for Tailwind CSS
 ==
 
